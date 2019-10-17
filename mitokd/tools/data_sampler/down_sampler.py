@@ -9,8 +9,7 @@ import os
 import random
 import sys
 
-sys.path.append('../')
-from file_corrector import FileCorrector  # noqa: E402
+from file_corrector import FileCorrector
 
 logger = getLogger(__name__)
 handler = StreamHandler()
