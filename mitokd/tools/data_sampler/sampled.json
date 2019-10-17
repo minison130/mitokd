@@ -1,0 +1,96 @@
+{
+    "root": "test_dir",
+    "target_ext": ".txt",
+    "contents": [
+        {
+            "dirname": "02",
+            "files": [
+                "5737734f-92bf-4b44-8fc6-b7b67c82b19a.txt",
+                "acb044ab-5457-4e2c-a8b0-29ac88c3d1aa.txt",
+                "4464f73f-b3c1-488f-a9bb-a1fd78383845.txt",
+                "9ff98010-00d2-4059-af27-7ceb91912c99.txt",
+                "74853473-8de2-478e-af85-25a08fb23d34.txt",
+                "b583e156-be92-406a-8007-446f4afc527d.txt",
+                "728101b1-2d3f-4838-8053-231db925072a.txt",
+                "7cc746b4-70e1-4ee4-8007-2c0b7822ac0e.txt",
+                "7c3ee3d8-c94a-477a-80d9-fd8d26ba4fc5.txt",
+                "9cabc9f4-5723-4781-bfd2-faff8f30a4a3.txt",
+                "0d3486dc-0872-426e-8c07-a5634517c605.txt",
+                "04d65d94-6a3e-44a4-8211-3f0e9f429ca6.txt",
+                "b3af5e2f-9a19-445f-8fbf-a76d3c2eb0a9.txt",
+                "17cf0ff2-923d-4229-a8bb-f4acedd0aa19.txt",
+                "6a64e7cb-936b-4e13-8d87-0d9726f73572.txt",
+                "d6bcd29d-e37c-4076-be89-0ecbd98e5474.txt",
+                "8d49dfc5-73bd-4c61-85d3-259633f45b0d.txt",
+                "414961aa-6390-4e74-93d8-8c8ad67690f3.txt",
+                "4303a32a-57bb-4a75-bb85-4253a553f721.txt",
+                "d0299d30-502e-4456-9843-0c52b6948eda.txt"
+            ]
+        },
+        {
+            "dirname": "01",
+            "files": [
+                "c1997355-0ca9-4a9a-90c7-b8bc9afd6669.txt",
+                "b7cf970e-edeb-46a6-a78e-d096032b5333.txt",
+                "bd379b63-e8c3-4f87-b411-474eeb2e0a2f.txt",
+                "c32dbe45-b645-4f39-9f72-f871b5b9918c.txt",
+                "39efd6c2-9140-4358-aacc-7455c7d90a5f.txt",
+                "ee1d54e6-5bbc-4683-9a92-2a2d8871c7fc.txt",
+                "b96dcac8-f5f6-4b89-954a-014e5a44881f.txt",
+                "1a03ab51-df88-463c-a7ec-7820a2960801.txt",
+                "d449bd63-5211-4d8c-8937-b9c6951b08e2.txt",
+                "b7d98044-781b-4cce-b898-470b4fe337a4.txt",
+                "9ef7731c-563a-4ac4-8a81-b2b84fad43b8.txt",
+                "d6051756-96ef-4c3d-937f-e9ec4622b402.txt",
+                "d8803c23-a392-4027-9b5c-c247e6a24799.txt",
+                "680a8e46-242b-465f-94b5-4877df04ed11.txt",
+                "fbb70ef7-88d3-465e-ad43-0e99db0a00b5.txt",
+                "db0fae97-19d9-463f-80fc-4230ee9e857e.txt",
+                "ae36e15a-ab00-4c64-9b6a-918a2b181082.txt",
+                "7778b541-9297-4117-996c-e60ff757d4a4.txt",
+                "9b55a2ed-0fcf-40a1-8166-2de5de2dc01e.txt",
+                "dddd314f-b37e-4b9a-9999-18163e711670.txt"
+            ]
+        },
+        {
+            "dirname": "00",
+            "files": [
+                "16ca0e4b-6b95-4094-a747-e855351ee3d5.txt",
+                "c20fde55-0400-4925-bf03-81e2c7bf46f6.txt",
+                "6154af35-be00-4cf0-b20b-994dd78103aa.txt",
+                "b21a492d-367c-4923-9454-c5cf55727def.txt",
+                "26f30831-1573-4688-8e7f-c5f3cb6649d4.txt",
+                "c392eee9-d959-4153-b9a6-880127c58a32.txt",
+                "30f55c38-55c1-4007-b64b-14661a8b3aa6.txt",
+                "26765930-001f-4c9d-af92-7ba76b3c3c51.txt",
+                "9fbc9678-d5e2-46ad-80f1-c127e66d752d.txt",
+                "55deb15c-cee4-4f59-8e48-4f0a96984277.txt"
+            ]
+        },
+        {
+            "dirname": "03",
+            "files": [
+                "b2c9255b-fe40-4db5-a549-2d492c662608.txt",
+                "6eff552f-5261-46dd-881f-774e2ea374b3.txt",
+                "fc765dab-f854-412f-b577-09c82b326e24.txt",
+                "2ed46539-1c96-487b-9fcb-c4d088a93738.txt",
+                "decbe2f4-b647-4657-a947-895404d1fb56.txt",
+                "b4e3bb02-8ad9-48ff-be8e-3496033ce3d6.txt",
+                "756cccc8-30ae-4e7a-bae7-6b1426953f5a.txt",
+                "10416814-70d0-4970-a133-7e0cde94697a.txt",
+                "526832aa-a909-4d6c-a04b-49d600d85215.txt",
+                "7ac3c435-4568-46dd-b543-d60bdf54dcc0.txt",
+                "6a9f03b6-58e1-495f-80e8-23661ac4834d.txt",
+                "66aa50c5-f881-4535-858f-8ad745801b95.txt",
+                "8e3e9267-de5d-4856-a8a7-ab48ba8ed759.txt",
+                "94f429a0-76db-40ef-93e1-fea496f78141.txt",
+                "35d49287-b0ba-4551-b12f-ebd3aa7443ca.txt",
+                "0d8fc8cd-677b-414f-a9e1-d1bd8289ed98.txt",
+                "e7851d86-6a3f-4879-a534-5430fdd1e124.txt",
+                "9f7e54f3-ee1d-4e82-85ee-99fc71b7f3f4.txt",
+                "594af8bc-6cca-4799-97ff-c2d8b5c932f9.txt",
+                "3f6ea87c-8f31-457b-840e-a3176542580e.txt"
+            ]
+        }
+    ]
+}
