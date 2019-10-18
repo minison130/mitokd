@@ -7,7 +7,13 @@ class FileCorrector(object):
         # error handling
         if not os.path.exists(root_dir):
             raise Exception(f'directory not exists: {root_dir}')
-        child_dirs = os.listdir(root_dir)
+        # get dirs
+        child_dirs = []
+        for cd in os.listdir(root_dir):
+            if not os.path.isdir(os.path.join(root_dir, cd)):
+                continue
+            child_dirs.append(cd)
+        # error handling
         if len(child_dirs) < 2:
             raise Exception(f'num of child dirs must be larger than 2: {child_dirs}')
         if not target_ext.startswith('.'):
