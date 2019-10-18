@@ -12,6 +12,8 @@ class FileCorrector(object):
         for cd in os.listdir(root_dir):
             if not os.path.isdir(os.path.join(root_dir, cd)):
                 continue
+            if cd.startswith('.'):
+                continue
             child_dirs.append(cd)
         # error handling
         if len(child_dirs) < 2:
