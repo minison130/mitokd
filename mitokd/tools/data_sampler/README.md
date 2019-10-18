@@ -9,7 +9,7 @@ pip install easydict
 ## (1) Make sampled json
 Run, 
 ```
-ptyhon down_sampler.py [-h] --root_dir ROOT_DIR --output_json OUTPUT_JSON
+python down_sampler.py [-h] --root_dir ROOT_DIR --output_json OUTPUT_JSON
                        [--max_rate MAX_RATE] [--target_ext TARGET_EXT]
 ```
 * ```ROOT_DIR```: dataset direcory
