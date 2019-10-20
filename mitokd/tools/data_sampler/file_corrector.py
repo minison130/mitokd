@@ -6,7 +6,7 @@ class FileCorrector(object):
     def __init__(self, root_dir, target_ext):
         # error handling
         if not os.path.exists(root_dir):
-            raise Exception(f'directory not exists: {root_dir}')
+            raise FileNotFoundError(f'directory not exists: {root_dir}')
         # get dirs
         child_dirs = []
         for cd in os.listdir(root_dir):
@@ -17,9 +17,9 @@ class FileCorrector(object):
             child_dirs.append(cd)
         # error handling
         if len(child_dirs) < 2:
-            raise Exception(f'num of child dirs must be larger than 2: {child_dirs}')
+            raise ValueError(f'num of child dirs must be larger than 2: {child_dirs}')
         if not target_ext.startswith('.'):
-            raise Exception(f'target_ext must be started with ".": {target_ext}')
+            raise ValueError(f'target_ext must be started with ".": {target_ext}')
         # init
         self.root_dir = root_dir
         self.child_dirs = child_dirs
@@ -35,7 +35,7 @@ class FileCorrector(object):
             if os.path.splitext(fname)[1] == self.target_ext:
                 files.append(fname)
         if len(files) == 0:
-            raise Exception(f'there is no {self.target_ext} in {dpath}')
+            raise FileNotFoundError(f'there is no {self.target_ext} in {dpath}')
         return files
 
     def correct(self):
