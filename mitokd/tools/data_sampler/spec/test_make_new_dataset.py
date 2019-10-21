@@ -20,7 +20,6 @@ class TestMakeDataset(unittest.TestCase):
         fc = FileCorrector(root_dir, '.txt')
         d = main(edict(fc.correct()), self._max_rate)
         _target_root = './new_target'
-        print(edict(d))
         make_new_dataset(edict(d), _target_root)
         fc = FileCorrector(_target_root, '.txt')
         self.assertEqual(len(fc._get_files('00')), 10)
