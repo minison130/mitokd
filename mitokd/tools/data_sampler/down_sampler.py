@@ -7,7 +7,6 @@ from logging import getLogger
 from logging import StreamHandler
 import os
 import random
-import sys
 
 from file_corrector import FileCorrector
 
