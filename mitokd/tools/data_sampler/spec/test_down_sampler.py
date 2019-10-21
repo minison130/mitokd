@@ -18,11 +18,11 @@ class TestDownSampler(unittest.TestCase):
         _max_rate = 2.0
         d = main(file_table=edict(fc.correct()), max_rate=_max_rate)
         lengths = []
-        for c in d.contents:
-            lengths.append(len(c.files))
+        for cnt in d.contents:
+            lengths.append(len(cnt.files))
         _min = min(lengths)
-        for l in lengths:
-            self.assertTrue(l <= int(_min * _max_rate))
+        for lgt in lengths:
+            self.assertTrue(lgt <= int(_min * _max_rate))
 
 
 if __name__ == '__main__':
