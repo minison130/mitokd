@@ -1,2 +1,3 @@
 bandit
 easydict
+tqdm
