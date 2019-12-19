@@ -1,3 +1,5 @@
 bandit
 easydict
 tqdm
+pydicom
+opencv-python
